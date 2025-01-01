@@ -25,7 +25,7 @@ export default function Create({ auth }) {
     <AuthenticatedLayout
       user={auth.user}
       header={
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items -center">
           <h2 className="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
             Create new Project
           </h2>
@@ -90,6 +90,7 @@ export default function Create({ auth }) {
                 <InputLabel
                   htmlFor="project_due_date"
                   value="Project Deadline"
+
                 />
 
                 <TextInput
